@@ -1,0 +1,119 @@
+body{
+    margin: 0 auto;
+}
+
+.topo{
+    width: 1600px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: black;
+}
+
+.menu{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: rgb(177, 33, 33);
+}
+
+.destaque{
+    width: 1600px;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(45, 31, 168);
+}
+
+.corpo{
+    width: 1600px;
+    height: 400px;
+    margin: auto;
+}
+
+.painel1{
+    width: 20%;
+    height: 400px;
+    float: left;
+    background-color: rgb(105, 172, 43);
+}
+
+.painel2{
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: rgb(21, 147, 197);
+}
+
+.painel3{
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: rgb(38, 9, 105);
+}
+
+.painel4{
+    width: 20%;
+    height: 400px;
+    float: left;
+    background-color: rgb(206, 1, 155);
+}
+
+.rodape{
+    width: 1600px;
+    height: 100px;
+    margin: auto;
+    background-color: brown;
+}
+
+@media only screen and (max-width: 1600px){
+    .topo{
+        width: 100%;
+    }
+    .corpo{
+        width: 100%;
+    }
+    .destaque{
+        width: 100%;
+    }
+    .rodape{
+        width: 100%;
+    }
+    .painel1{
+        display: none;
+    }
+    .painel2{
+        width: 50%;
+    }
+    .painel3{
+        width: 50%;
+    }
+    .painel4{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .topo{
+        width: 100%;
+    }
+    .corpo{
+        height: 800px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+    }
+    .painel2{
+        width: 100%;
+    }
+    .painel3{
+        width: 100%;
+    }
+}
